@@ -1,33 +1,22 @@
+import React from 'react';
+
 export default function Ellipse() {
   return (
-    <div className="relative size-full" data-name="ellipse">
+    <div className="w-full h-full">
       <svg
-        className="block size-full"
+        className="w-full h-full"
+        viewBox="0 0 64 64"
         fill="none"
-        preserveAspectRatio="none"
-        viewBox="0 0 70 70"
+        xmlns="http://www.w3.org/2000/svg"
       >
         <circle
-          cx="35"
-          cy="35"
-          id="ellipse"
-          r="29"
-          stroke="url(#paint0_linear_2003_168)"
-          strokeWidth="12"
+          cx="32"
+          cy="32"
+          r="31"
+          stroke="currentColor"
+          strokeWidth="2"
+          className="text-primary opacity-20"
         />
-        <defs>
-          <linearGradient
-            gradientUnits="userSpaceOnUse"
-            id="paint0_linear_2003_168"
-            x1="1.56462e-06"
-            x2="81.4415"
-            y1="70"
-            y2="17.8774"
-          >
-            <stop stopColor="#CFE6A6" />
-            <stop offset="1" stopColor="#006A64" />
-          </linearGradient>
-        </defs>
       </svg>
     </div>
   );
